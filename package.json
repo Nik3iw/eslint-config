@@ -1,0 +1,68 @@
+{
+  "name": "@nik3iw/eslint-config",
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "author": "Nik3iw",
+  "description": "Shareable ESLint Config",
+  "keywords": [
+    "ESLint",
+    "Config"
+  ],
+  "homepage": "https://github.com/Nik3iw/eslint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nik3iw/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nik3iw/eslint-config/issues"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "release": "semantic-release",
+    "release:dry": "semantic-release --dry-run"
+  },
+  "peerDependencies": {
+    "eslint": "^10.0.0"
+  },
+  "dependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-unicorn": "^64.0.0",
+    "globals": "^17.6.0",
+    "typescript-eslint": "^8.60.1"
+  },
+  "devDependencies": {
+    "@nik3iw/prettier-config": "^1.0.0",
+    "@nik3iw/tsconfig": "^1.0.0",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^13.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^12.0.8",
+    "@semantic-release/npm": "^13.1.5",
+    "@semantic-release/release-notes-generator": "^14.1.1",
+    "@types/node": "^25.9.1",
+    "conventional-changelog-conventionalcommits": "^9.3.1",
+    "eslint": "^10.4.1",
+    "prettier": "^3.8.3",
+    "semantic-release": "^25.0.3",
+    "tsup": "^8.5.1",
+    "typescript": "~6.0.3"
+  },
+  "packageManager": "yarn@4.16.0"
+}
