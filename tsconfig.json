@@ -3,7 +3,6 @@
   "compilerOptions": {
     /* Modules */
     "rootDir": "./src",
-    "baseUrl": "./",
 
     /* Emit */
     "outDir": "./dist"
