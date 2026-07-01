@@ -45,7 +45,6 @@ export function createConfig(params: Params): ConfigWithExtends[] {
   }
 
   final.push({
-    files: ["**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}"],
     languageOptions: {
       ecmaVersion: params.platform === "web" ? 2023 : 2025,
       globals:

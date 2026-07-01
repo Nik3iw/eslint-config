@@ -8,7 +8,6 @@ export function unicornConfig(): Config[] {
 
     // Rules
     {
-      files: ["**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}"],
       rules: {
         "unicorn/filename-case": ["off"],
         "unicorn/no-null": ["off"],

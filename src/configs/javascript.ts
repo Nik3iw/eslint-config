@@ -4,15 +4,10 @@ import js from "@eslint/js";
 
 export function javascriptConfig(): Config[] {
   return defineConfig(
-    {
-      files: ["**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}"],
-      plugins: { js },
-      extends: ["js/recommended"],
-    },
+    js.configs.recommended,
 
     // Rules
     {
-      files: ["**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}"],
       rules: {
         "array-callback-return": ["error"],
         curly: ["warn", "all"],

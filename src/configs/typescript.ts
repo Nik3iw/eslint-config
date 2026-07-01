@@ -25,7 +25,6 @@ export function typescriptConfig(params: Params): Config[] {
 
     // Rules
     {
-      files: ["**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}"],
       rules: {
         "@typescript-eslint/prefer-optional-chain": ["off"],
         "@typescript-eslint/prefer-nullish-coalescing": ["off"],
