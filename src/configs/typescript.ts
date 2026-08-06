@@ -16,9 +16,7 @@ export function typescriptConfig(params: Params): Config[] {
       languageOptions: {
         parserOptions: {
           projectService: true,
-          ...(params.tsconfigRootDir !== undefined
-            ? { tsconfigRootDir: params.tsconfigRootDir }
-            : {}),
+          ...(params.tsconfigRootDir !== undefined ? { tsconfigRootDir: params.tsconfigRootDir } : {}),
         },
       } satisfies ConfigWithExtends["languageOptions"],
     },
