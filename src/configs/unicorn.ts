@@ -29,7 +29,7 @@ export function unicornConfig(): Config[] {
         // "unicorn/no-unused-properties": ["error"],
         // "unicorn/prefer-dispose": ["error"],
         "unicorn/prefer-error-is-error": ["warn"],
-        "unicorn/prefer-explicit-viewport-units": ["error"],
+        // "unicorn/prefer-explicit-viewport-units": ["off"], // TODO: Check & enable it when CSS configs are added
         "unicorn/prefer-import-meta-properties": ["warn"],
         "unicorn/prefer-iterator-concat": ["warn"],
         "unicorn/prefer-regexp-escape": ["warn"],
