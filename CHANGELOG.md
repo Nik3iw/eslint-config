@@ -1,3 +1,5 @@
+## [1.1.0](https://github.com/Nik3iw/eslint-config/compare/v1.0.3...v1.1.0) (2026-08-06)
+
 ## [1.0.3](https://github.com/Nik3iw/eslint-config/compare/v1.0.2...v1.0.3) (2026-07-01)
 
 ## [1.0.2](https://github.com/Nik3iw/eslint-config/compare/v1.0.1...v1.0.2) (2026-06-30)
