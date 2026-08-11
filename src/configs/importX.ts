@@ -64,7 +64,7 @@ export function importXConfig(): Config[] {
         // "import-x/no-named-default": ["off"],
         // "import-x/no-named-export": ["off"],
         "import-x/no-namespace": ["warn"],
-        "import-x/no-unassigned-import": ["error"],
+        "import-x/no-unassigned-import": ["error", { allow: ["**/*.css"] }],
         "import-x/order": ["warn"],
         // "import-x/prefer-default-export": ["off"],
         "import-x/prefer-namespace-import": ["warn"],
