@@ -47,7 +47,7 @@
     "eslint-plugin-import-x": "^4.17.1",
     "eslint-plugin-unicorn": "^73.0.0",
     "globals": "^17.9.0",
-    "typescript-eslint": "^8.66.0"
+    "typescript-eslint": "^8.67.0"
   },
   "devDependencies": {
     "@nik3iw/prettier-config": "^1.0.1",
@@ -58,9 +58,9 @@
     "@semantic-release/github": "^12.0.9",
     "@semantic-release/npm": "^13.1.5",
     "@semantic-release/release-notes-generator": "^14.1.1",
-    "@types/node": "^26.1.2",
-    "conventional-changelog-conventionalcommits": "^10.2.1",
-    "eslint": "^10.8.0",
+    "@types/node": "^26.2.0",
+    "conventional-changelog-conventionalcommits": "^10.3.0",
+    "eslint": "^10.8.1",
     "prettier": "^3.9.6",
     "semantic-release": "^25.0.9",
     "tsdown": "^0.22.14",
