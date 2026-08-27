@@ -1,3 +1,9 @@
+## [1.2.3](https://github.com/Nik3iw/eslint-config/compare/v1.2.2...v1.2.3) (2026-08-27)
+
+### Bug Fixes
+
+* update packages ([b8230d8](https://github.com/Nik3iw/eslint-config/commit/b8230d8bc1544f30e7aec2f75b400c3fd5348055))
+
 ## [1.2.2](https://github.com/Nik3iw/eslint-config/compare/v1.2.1...v1.2.2) (2026-08-11)
 
 ## [1.2.1](https://github.com/Nik3iw/eslint-config/compare/v1.2.0...v1.2.1) (2026-08-07)
