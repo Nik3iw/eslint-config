@@ -59,7 +59,7 @@
     "@semantic-release/npm": "^13.1.5",
     "@semantic-release/release-notes-generator": "^14.1.1",
     "@types/node": "^26.4.0",
-    "conventional-changelog-conventionalcommits": "^10.4.0",
+    "conventional-changelog-conventionalcommits": "^10.3.0",
     "eslint": "^10.9.1",
     "prettier": "^3.9.6",
     "semantic-release": "^25.0.9",
