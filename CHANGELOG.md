@@ -1,3 +1,9 @@
+## [1.2.4](https://github.com/Nik3iw/eslint-config/compare/v1.2.3...v1.2.4) (2026-08-30)
+
+### Bug Fixes
+
+* disable unicorn consistent arrow return style ([2e39537](https://github.com/Nik3iw/eslint-config/commit/2e39537254242e09759511579f5bfa34e50146ad))
+
 ## [1.2.3](https://github.com/Nik3iw/eslint-config/compare/v1.2.2...v1.2.3) (2026-08-27)
 
 ### Bug Fixes
