@@ -11,7 +11,7 @@ export function unicornConfig(): Config[] {
       rules: {
         // Not enabled by default
         "unicorn/comment-content": ["warn"],
-        "unicorn/consistent-arrow-return-style": ["warn"],
+        // "unicorn/consistent-arrow-return-style": ["warn"],
         "unicorn/consistent-destructuring": ["error"],
         "unicorn/consistent-function-style": ["error"],
         "unicorn/custom-error-definition": ["warn"],
