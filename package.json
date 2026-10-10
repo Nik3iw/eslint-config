@@ -46,8 +46,8 @@
     "eslint-import-resolver-typescript": "^4.4.5",
     "eslint-plugin-import-x": "^4.17.1",
     "eslint-plugin-unicorn": "^76.0.0",
-    "globals": "^17.12.0",
-    "typescript-eslint": "^8.70.0"
+    "globals": "^17.13.0",
+    "typescript-eslint": "^8.71.1"
   },
   "devDependencies": {
     "@nik3iw/prettier-config": "^1.0.1",
@@ -55,13 +55,13 @@
     "@semantic-release/changelog": "^7.0.0",
     "@semantic-release/commit-analyzer": "^13.0.1",
     "@semantic-release/git": "^11.0.1",
-    "@semantic-release/github": "^12.0.9",
-    "@semantic-release/npm": "^13.1.5",
+    "@semantic-release/github": "^12.0.10",
+    "@semantic-release/npm": "^13.2.0",
     "@semantic-release/release-notes-generator": "^14.1.1",
-    "@types/node": "^26.6.2",
+    "@types/node": "^26.6.5",
     "conventional-changelog-conventionalcommits": "^9.3.1",
-    "eslint": "^10.11.0",
-    "prettier": "^3.9.8",
+    "eslint": "^10.12.0",
+    "prettier": "^3.9.10",
     "semantic-release": "^25.0.9",
     "tsdown": "^0.23.0",
     "typescript": "~6.0.3"
