@@ -19,13 +19,13 @@ export function unicornConfig(): Config[] {
         // "unicorn/id-match": ["error"],
         // "unicorn/indent": ["warn"],
         "unicorn/iteration-fallback-style": ["warn"],
-        // "unicorn/key-name-casing": ["error"],
+        // "unicorn/key-name-casing": ["error"],  // Can be enabled for JSON
         // "unicorn/no-array-front-mutation": ["error"],
         // "unicorn/no-barrel-files": ["error"],
         "unicorn/no-invalid-file-input-accept": ["warn"],
-        // "unicorn/no-javascript-url": ["error"],
+        // "unicorn/no-javascript-url": ["error"], // Can be enabled for HTML
         // "unicorn/no-keyword-prefix": ["error"],
-        // "unicorn/no-loss-of-precision": ["error"],
+        // "unicorn/no-loss-of-precision": ["error"], // Can be enabled for JSON
         // "unicorn/no-manually-wrapped-comments": ["warn"],
         // "unicorn/no-missing-local-resource": ["warn"],
         "unicorn/no-repeated-call-wrappers": ["error"],
