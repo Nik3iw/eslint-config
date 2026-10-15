@@ -29,6 +29,7 @@ export function unicornConfig(): Config[] {
         // "unicorn/no-manually-wrapped-comments": ["warn"],
         // "unicorn/no-missing-local-resource": ["warn"],
         "unicorn/no-repeated-call-wrappers": ["error"],
+        "unicorn/no-unnecessary-default-arguments": ["warn"],
         "unicorn/no-unreadable-new-expression": ["error"],
         "unicorn/no-unsafe-dom-html": ["error"],
         // "unicorn/no-unused-properties": ["error"],
