@@ -1,3 +1,9 @@
+## [1.5.0](https://github.com/Nik3iw/eslint-config/compare/v1.4.0...v1.5.0) (2026-10-15)
+
+### Features
+
+* upgrade unicorn & packages ([51eb8b4](https://github.com/Nik3iw/eslint-config/commit/51eb8b4e5d57c207de75420377da3fb6252418fb))
+
 ## [1.4.0](https://github.com/Nik3iw/eslint-config/compare/v1.3.0...v1.4.0) (2026-10-10)
 
 ### Features
