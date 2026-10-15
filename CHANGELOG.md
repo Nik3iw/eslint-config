@@ -1,3 +1,9 @@
+## [1.5.1](https://github.com/Nik3iw/eslint-config/compare/v1.5.0...v1.5.1) (2026-10-15)
+
+### Bug Fixes
+
+* disable some unicorn rules ([ced8f14](https://github.com/Nik3iw/eslint-config/commit/ced8f141200a7f77b456aa6f4c203c7c09bac953))
+
 ## [1.5.0](https://github.com/Nik3iw/eslint-config/compare/v1.4.0...v1.5.0) (2026-10-15)
 
 ### Features
