@@ -1,3 +1,9 @@
+## [1.5.2](https://github.com/Nik3iw/eslint-config/compare/v1.5.1...v1.5.2) (2026-10-17)
+
+### Bug Fixes
+
+* disable import-x/extensions for json files ([6a2b12c](https://github.com/Nik3iw/eslint-config/commit/6a2b12c0b4897711f44d10ca0c06f1818cede63d))
+
 ## [1.5.1](https://github.com/Nik3iw/eslint-config/compare/v1.5.0...v1.5.1) (2026-10-15)
 
 ### Bug Fixes
