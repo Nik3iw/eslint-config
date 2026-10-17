@@ -54,7 +54,7 @@ export function importXConfig(): Config[] {
         "import-x/consistent-type-specifier-style": ["warn", "prefer-top-level"],
         // "import-x/dynamic-import-chunkname": ["off"],
         // "import-x/exports-last": ["off"],
-        "import-x/extensions": ["warn", "never"],
+        "import-x/extensions": ["warn", { json: "always" }],
         "import-x/first": ["warn"],
         // "import-x/group-exports": ["off"],
         // "import-x/max-dependencies": ["off"],
