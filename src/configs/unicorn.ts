@@ -52,6 +52,7 @@ export function unicornConfig(): Config[] {
         "unicorn/filename-case": ["off"],
         "unicorn/no-null": ["off"],
         "unicorn/name-replacements": ["off"],
+        "unicorn/prefer-ternary": ["off"],
       },
     },
   );
