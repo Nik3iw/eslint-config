@@ -1,3 +1,9 @@
+## [1.5.3](https://github.com/Nik3iw/eslint-config/compare/v1.5.2...v1.5.3) (2026-10-21)
+
+### Bug Fixes
+
+* disable prefer-ternary rule ([b090c06](https://github.com/Nik3iw/eslint-config/commit/b090c064d3e5d98777c9469e74d68f21262906ec))
+
 ## [1.5.2](https://github.com/Nik3iw/eslint-config/compare/v1.5.1...v1.5.2) (2026-10-17)
 
 ### Bug Fixes
