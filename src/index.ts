@@ -4,6 +4,7 @@ import { javascriptConfig } from "./configs/javascript";
 import { typescriptConfig } from "./configs/typescript";
 import { unicornConfig } from "./configs/unicorn";
 import { importXConfig } from "./configs/importX";
+import { astroConfig } from "./configs/astro";
 import { prettierConfig } from "./configs/prettier";
 
 type Platform = "web" | "node";
@@ -14,6 +15,7 @@ interface Params {
     typescript?: { tsconfigRootDir?: string } | undefined;
     unicorn?: boolean;
     importX?: boolean;
+    astro?: boolean;
   };
   extends?: ConfigWithExtends[];
 }
@@ -23,6 +25,7 @@ export function createConfig(params: Params): ConfigWithExtends[] {
     typescript: undefined,
     unicorn: true,
     importX: true,
+    astro: false,
     ...params.configs,
   };
 
@@ -39,6 +42,11 @@ export function createConfig(params: Params): ConfigWithExtends[] {
   // Import-X
   if (configs.importX) {
     final.push(...importXConfig());
+  }
+
+  // Astro
+  if (configs.astro) {
+    final.push(...astroConfig());
   }
 
   // Prettier
