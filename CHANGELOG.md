@@ -1,3 +1,11 @@
+## [1.6.0](https://github.com/Nik3iw/eslint-config/compare/v1.5.3...v1.6.0) (2026-10-24)
+
+### Features
+
+* add astro config ([0ed07ef](https://github.com/Nik3iw/eslint-config/commit/0ed07ef7a37a9480fc284502c2040239eb5322f2))
+* add react config ([9c8625d](https://github.com/Nik3iw/eslint-config/commit/9c8625d62a27d9019e4bdd1aaeedb500ab6114d0))
+* upgrade unicorn plugin ([f663dd7](https://github.com/Nik3iw/eslint-config/commit/f663dd70e9b8d66a41a65432557afe3c39887cff))
+
 ## [1.5.3](https://github.com/Nik3iw/eslint-config/compare/v1.5.2...v1.5.3) (2026-10-21)
 
 ### Bug Fixes
