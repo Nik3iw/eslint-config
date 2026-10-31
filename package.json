@@ -32,6 +32,9 @@
       "types": "./dist/index.d.mts"
     }
   },
+  "engines": {
+    "node": ">=26.13.0"
+  },
   "scripts": {
     "build": "tsdown",
     "release": "semantic-release",
@@ -51,7 +54,7 @@
     "eslint-plugin-react-refresh": "^0.5.7",
     "eslint-plugin-unicorn": "^79.0.0",
     "globals": "^17.13.0",
-    "typescript-eslint": "^8.71.2"
+    "typescript-eslint": "^8.72.1"
   },
   "devDependencies": {
     "@nik3iw/prettier-config": "^1.0.1",
@@ -62,15 +65,13 @@
     "@semantic-release/github": "^12.0.10",
     "@semantic-release/npm": "^13.2.0",
     "@semantic-release/release-notes-generator": "^14.1.1",
-    "@types/node": "^26.6.5",
+    "@types/node": "^26.6.6",
     "conventional-changelog-conventionalcommits": "^9.3.1",
-    "eslint": "^10.12.0",
+    "eslint": "^10.13.0",
     "prettier": "^3.9.10",
     "semantic-release": "^25.0.9",
-    "tsdown": "^0.23.1",
-    "typescript": "~6.0.3"
+    "tsdown": "^0.23.4",
+    "typescript": "~7.0.2"
   },
-  "allowScripts": {
-    "unrs-resolver@1.12.2": true
-  }
+  "packageManager": "pnpm@12.16.1"
 }
