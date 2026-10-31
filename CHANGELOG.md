@@ -1,9 +1,3 @@
-## [1.7.0](https://github.com/Nik3iw/eslint-config/compare/v1.6.0...v1.7.0) (2026-10-31)
-
-### Features
-
-* upgrade typescript, migrate to pnpm ([efc222c](https://github.com/Nik3iw/eslint-config/commit/efc222c19b5cb7fa27414e43faf201cd4329ad2e))
-
 ## [1.6.0](https://github.com/Nik3iw/eslint-config/compare/v1.5.3...v1.6.0) (2026-10-24)
 
 ### Features
