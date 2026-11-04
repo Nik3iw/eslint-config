@@ -53,12 +53,12 @@
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.7",
     "eslint-plugin-unicorn": "^79.0.0",
-    "globals": "^17.13.0",
+    "globals": "^17.14.0",
     "typescript-eslint": "^8.72.1"
   },
   "devDependencies": {
     "@nik3iw/prettier-config": "^1.0.1",
-    "@nik3iw/tsconfig": "^1.1.2",
+    "@nik3iw/tsconfig": "^1.2.0",
     "@semantic-release/changelog": "^7.0.0",
     "@semantic-release/commit-analyzer": "^13.0.1",
     "@semantic-release/git": "^11.0.1",
@@ -67,10 +67,10 @@
     "@semantic-release/release-notes-generator": "^14.1.1",
     "@types/node": "^26.6.6",
     "conventional-changelog-conventionalcommits": "^9.3.1",
-    "eslint": "^10.13.0",
+    "eslint": "^10.14.0",
     "prettier": "^3.9.10",
     "semantic-release": "^25.0.9",
-    "tsdown": "^0.23.4",
+    "tsdown": "^0.23.5",
     "typescript": "~7.0.2"
   },
   "packageManager": "pnpm@12.16.1"
